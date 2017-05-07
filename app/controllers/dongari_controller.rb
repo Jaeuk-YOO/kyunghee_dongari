@@ -1,0 +1,2 @@
+class DongariController < ApplicationController
+end
