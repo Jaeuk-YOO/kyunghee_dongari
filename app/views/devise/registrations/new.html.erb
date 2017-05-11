@@ -4,9 +4,25 @@
   <%= devise_error_messages! %>
 
   <div class="field">
-    <%= f.label :email %><br />
+    <%= f.label :이메일 %><br />
     <%= f.email_field :email, autofocus: true %>
   </div>
+  
+  <div class="field">
+    <%= f.label :이름 %><br />
+    <%= f.text_field :username %>
+  </div>
+  
+  <div class="field">
+    <%= f.label :학과 %><br />
+    <%= f.text_field :major %>
+  </div>
+
+  <div class="field">
+    <%= f.label :학번 %><br />
+    <%= f.text_field :student_id %>
+  </div>
+
 
   <div class="field">
     <%= f.label :password %>
