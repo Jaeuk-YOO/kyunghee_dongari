@@ -55,5 +55,6 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  root :to => "dongari#index"  
+  root :to => "dongari#index"
+  get "dongari/index"
 end
