@@ -1,0 +1,55 @@
+<form action="/dongari/create" method="POST">
+    1. 동아리 분류 </br>
+    <input type="radio" name="c_type" value="중동">중동
+    <input type="radio" name="c_type" value="과동">과동
+    </br>
+    </br>
+    
+    *단과대를 선택해 주세요. 
+    </br>
+    <input type="radio" name="colleges_type" value="공과대학">공과대학
+    <input type="radio" name="colleges_type" value="전자정보대학">전자정보대학
+    <input type="radio" name="colleges_type" value="응용과학대학">응용과학대학
+    <input type="radio" name="colleges_type" value="생명과학대학">생명과학대학
+    <input type="radio" name="colleges_type" value="국제대학">국제대학
+    <input type="radio" name="colleges_type" value="외국어대학">외국어대학
+    <input type="radio" name="colleges_type" value="예술디자인대학">예술디자인대학
+    <input type="radio" name="colleges_type" value="체육대학">체육대학
+    <input type="radio" name="colleges_type" value="동서의과학과">동서의과학과
+    </br>
+    </br>
+    
+    2. 알맞은 동아리 성격을 골라주세요
+        <input type="radio" name="d_type" value="공연">공연
+        <input type="radio" name="d_type" value="체육">체육
+        <input type="radio" name="d_type" value="학술">학술
+        <input type="radio" name="d_type" value="사회">사회
+        <input type="radio" name="d_type" value="종교">종교
+        <input type="radio" name="d_type" value="취미교양">취미교양
+        <input type="radio" name="d_type" value="전시창작">전시창작
+        </br>
+        </br>
+        <fieldset style = "width:150">
+            3. 동아리 : <input type="text" name="c_name"> </br>
+            4. 회장이름 : <input type="text" name="p_name"> </br>
+        </fieldset>
+        
+        <fieldset style = "width:250">
+                <legend>5. 동아리방 위치</legend>
+                    정보입력 <br>
+                    <textarea name = "c_location" cols = "50" rows = "5"  
+                              placeholder="ex) 학생회관 OOO호"></textarea>
+                    <br><br>
+                    
+            </fieldset>
+            
+            <fieldset style = "width:250">
+                <legend>6. 동아리 소개</legend>
+                    정보입력 <br>
+                    <textarea name = "introduction" cols = "50" rows = "5"  
+                              placeholder="활동시간 / 수상 / 정보 등"></textarea>
+                    <br><br>
+                    <input type = "submit" value = "submit"/>
+                    <input type = "reset" value = "reset"/><br><br>
+            </fieldset>
+</form>

@@ -57,4 +57,10 @@ Rails.application.routes.draw do
 
   root :to => "dongari#index"
   get "dongari/index"
+  post "dongari/create"
+  get "dongari/sign"
+  get "dongari/edit"
+  post "dongari/update"
+  get "dongari/destroy"
+  
 end
