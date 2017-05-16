@@ -9,11 +9,45 @@
 	box-sizing: border-box;
 	}
 
-
+/*nav bar*/
 .container{
 	margin : 0;
 	padding : 0;
 }
-	.container-fluid{
-		background-color:#7d0101;
-	}
+.container-fluid{
+	background-color:#7d0101;
+	height:60px;
+}
+.navbar-brand {
+	background-image: url(이미지/KHUdongari.gif);
+	background-size: cover;
+	min-width: 90px;
+	width: 90px;
+}
+.nav .navbar .navbar-default .navbar-fixed-top{
+	height:400px;
+}
+.nav .navbar-nav .navbar-right a{
+	color:#ffffff;
+}
+/* body */
+.jumbotron{
+	background-image: url(file:///C:/Users/ona35/Desktop/main_bg_06.jpg);
+	background-size: cover;
+	height: 600px;
+}
+.jumbotron #h1{
+	color: #FFFFFF;
+}
+
+.thumbnail{
+size: cover;
+}
+.panel-body{
+	text-align:center;
+}
+.footer{
+	background-color: #393939;
+	color: #FFFFFF;
+	height:300px;
+}
