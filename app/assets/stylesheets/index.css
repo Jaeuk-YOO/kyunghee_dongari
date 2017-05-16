@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+ @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); 
+	*{
+	font-family: 'Nanum Gothic';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+
+.container{
+	margin : 0;
+	padding : 0;
+}
+	.container-fluid{
+		background-color:#7d0101;
+	}
